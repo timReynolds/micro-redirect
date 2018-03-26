@@ -24,9 +24,9 @@
     "envs": ["jest"]
   },
   "devDependencies": {
-    "husky": "^0.13.2",
-    "jest": "^19.0.2",
-    "xo": "^0.17.1"
+    "husky": "0.13.2",
+    "jest": "19.0.2",
+    "xo": "0.17.1"
   },
   "dependencies": {}
 }
