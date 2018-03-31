@@ -16,7 +16,8 @@
   "scripts": {
     "precommit": "npm run lint",
     "lint": "xo",
-    "test": "npm run lint && jest"
+    "test": "jest",
+    "test:coverage": "jest  --coverage"
   },
   "xo": {
     "esnext": true,
