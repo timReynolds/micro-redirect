@@ -1,4 +1,4 @@
-const sut = require('./index');
+const sut = require('.');
 
 describe('Redirect', () => {
   test('When not given res, should throw error', () => {
