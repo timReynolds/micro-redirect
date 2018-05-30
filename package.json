@@ -26,7 +26,7 @@
   },
   "devDependencies": {
     "husky": "0.14.3",
-    "jest": "22.4.3",
+    "jest": "23.1.0",
     "xo": "0.20.3"
   },
   "dependencies": {}
