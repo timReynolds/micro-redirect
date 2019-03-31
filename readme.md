@@ -1,6 +1,5 @@
 _**Micro Redirect -**_ A redirect function for Zeit's [micro](https://github.com/zeit/micro)
 
-[![GitHub release](https://img.shields.io/github/release/timReynolds/micro-redirect.svg)]()
 [![Build Status](https://travis-ci.org/timReynolds/micro-redirect.svg?branch=master)](https://travis-ci.org/timreynolds/micro-redirect)
 [![Maintainability](https://api.codeclimate.com/v1/badges/0d5e4eb0820d66791e2d/maintainability)](https://codeclimate.com/github/timReynolds/micro-redirect/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/0d5e4eb0820d66791e2d/test_coverage)](https://codeclimate.com/github/timReynolds/micro-redirect/test_coverage)
