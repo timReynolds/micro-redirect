@@ -1,6 +1,6 @@
 {
   "name": "micro-redirect",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A redirect function for Zeit's micro",
   "main": "index.js",
   "keywords": [
