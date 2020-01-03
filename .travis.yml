@@ -2,14 +2,14 @@
 language: node_js
 
 node_js:
-- node
-- lts/*
+  - node
+  - lts/*
 
 sudo: false
 
 cache:
   directories:
-  - node_modules
+    - node_modules
 
 before_script:
   - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
@@ -17,8 +17,8 @@ before_script:
   - ./cc-test-reporter before-build
 
 script:
-- npm run test:coverage
-- npm run lint
+  - npm run format
+  - npm run test:coverage
 
 after_script:
   - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT

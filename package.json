@@ -14,22 +14,13 @@
   },
   "license": "MIT",
   "scripts": {
-    "precommit": "npm run lint",
-    "lint": "xo",
+    "format": "prettier -c *.js",
     "test": "jest",
-    "test:coverage": "jest  --coverage"
-  },
-  "xo": {
-    "esnext": true,
-    "space": true,
-    "envs": [
-      "jest"
-    ]
+    "test:coverage": "jest --coverage"
   },
   "devDependencies": {
-    "husky": "3.1.0",
     "jest": "24.9.0",
-    "xo": "0.25.3"
+    "prettier": "1.19.1"
   },
   "dependencies": {}
 }
