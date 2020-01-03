@@ -1,4 +1,6 @@
-_**Micro Redirect -**_ A redirect function for Zeit's [micro](https://github.com/zeit/micro)
+_**Micro Redirect -**_
+
+A redirect function for Zeit's [micro](https://github.com/zeit/micro)
 
 [![Build Status](https://travis-ci.org/timReynolds/micro-redirect.svg?branch=master)](https://travis-ci.org/timreynolds/micro-redirect)
 [![Maintainability](https://api.codeclimate.com/v1/badges/0d5e4eb0820d66791e2d/maintainability)](https://codeclimate.com/github/timReynolds/micro-redirect/maintainability)
@@ -16,18 +18,18 @@ npm install --save micro-redirect
 Then import it like this:
 
 ```js
-const redirect = require('micro-redirect')
+const redirect = require("micro-redirect");
 ```
 
 And use it the same you'd use Zeit's send:
 
 ```js
 module.exports = async (req, res) => {
-  const statusCode = 302
-  const location = 'http://github.com'
+  const statusCode = 302;
+  const location = "http://github.com";
 
-  redirect(res, statusCode, location)
-}
+  redirect(res, statusCode, location);
+};
 ```
 
 #### API
