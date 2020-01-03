@@ -1,6 +1,6 @@
 {
   "name": "micro-redirect",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A redirect function for Zeit's micro",
   "main": "index.js",
   "keywords": [
@@ -22,7 +22,9 @@
   "xo": {
     "esnext": true,
     "space": true,
-    "envs": ["jest"]
+    "envs": [
+      "jest"
+    ]
   },
   "devDependencies": {
     "husky": "3.1.0",
