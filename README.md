@@ -5,7 +5,6 @@ A redirect function for Zeit's [micro](https://github.com/zeit/micro)
 [![Build Status](https://travis-ci.org/timReynolds/micro-redirect.svg?branch=master)](https://travis-ci.org/timreynolds/micro-redirect)
 [![Maintainability](https://api.codeclimate.com/v1/badges/0d5e4eb0820d66791e2d/maintainability)](https://codeclimate.com/github/timReynolds/micro-redirect/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/0d5e4eb0820d66791e2d/test_coverage)](https://codeclimate.com/github/timReynolds/micro-redirect/test_coverage)
-[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
 
 ## Usage
 
