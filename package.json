@@ -19,7 +19,7 @@
     "test:coverage": "jest --coverage"
   },
   "devDependencies": {
-    "jest": "25.2.6",
+    "jest": "25.2.7",
     "prettier": "1.19.1"
   },
   "dependencies": {}
