@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "jest": "25.2.6",
-    "prettier": "1.19.1"
+    "prettier": "2.0.4"
   },
   "dependencies": {}
 }
